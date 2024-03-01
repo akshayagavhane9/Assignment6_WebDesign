@@ -1,0 +1,25 @@
+// Flexbox layout for the main content
+main {
+    @include flex-center;
+    flex-direction: column;
+  
+    .content {
+      width: 80%;
+      margin: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  
+      .card {
+        width: 48%;
+        margin-bottom: $grid-gap;
+        background-color: $primary-color;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        &:hover {
+          background-color: lighten-color($primary-color, 10%);
+        }
+      }
+    }
+  }

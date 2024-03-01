@@ -1,0 +1,310 @@
+/* Style for the heading within the section */
+/* Style for the paragraph within the section */
+/* Style for the table within the section */
+/* Style for table rows */
+/* Hover effect on table rows */
+/* Style for table cells */
+/* Style for the heading within the section */
+/* Style for the summary within the section */
+/* Style for the unordered list within the section */
+/* Style for list items within the unordered list */
+/* Hover effect on list items */
+/* Your existing styles for the footer */
+/* Style for the contact section within the footer 
+#contact h2{
+
+    background-color:white;
+    padding: 0px 100px;
+}
+*/
+/* Style for the heading within the contact section */
+/* Style for the contact information */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  width: 1290px;
+  height: 90px;
+  line-height: 85px;
+  padding: 0px 100px;
+  background-color: f7ede2;
+}
+nav .logo p {
+  font-size: 25px;
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  color: black;
+  text-transform: capitalize;
+  position: absolute;
+  cursor: pointer;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 0px 15px;
+  color: black;
+  text-decoration: none;
+}
+nav li a.hover {
+  color: #ff8c69;
+  transition: all 0.4s ease 0s;
+}
+
+.logoimg img {
+  position: absolute;
+  margin-left: 10px;
+  width: 145px;
+  height: 145px;
+}
+
+.content-items img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.content-items h2 {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+p {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  font-size: 30px;
+  top: 120px;
+  left: 30px;
+  margin: 150px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #bb9386;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #bb9386;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+}
+button:hover {
+  background-color: #e9edc9;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#properties {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+#properties h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+#properties p {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 20px;
+  float: center;
+}
+#properties table {
+  width: 100%;
+  background-color: #bb9386;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+#properties table tr {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+#properties table tr:hover {
+  background-color: #f2f2f2;
+}
+#properties table td {
+  padding: 15px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+#services {
+  background-color: #bb9386;
+  padding: 50px;
+  text-align: center;
+}
+#services h2 {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+#services summary {
+  color: black;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+#services ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#services li {
+  background-color: white;
+  padding: 15px;
+  margin: 90px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+#services li:hover {
+  background-color: #f6ebe7;
+}
+
+#video-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.audio-main {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #bb9386;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+audio {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  background-color: #bb9386;
+  color: #bb9386;
+  text-align: center;
+  padding: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#contact h2 {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+#contact p {
+  color: black;
+  float: right;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 20px 20px;
+}
+#contact p1 {
+  color: black;
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 20px 20px;
+}
+#contact p2 {
+  color: black;
+  float: center;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: fef2ec;
+  margin: 0;
+  padding: 0;
+}
+
+.search-form {
+  margin: 40px 0;
+}
+.search-form input[type=text] {
+  width: 75%;
+}/*# sourceMappingURL=index.css.map */

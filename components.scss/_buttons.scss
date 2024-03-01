@@ -1,0 +1,32 @@
+// Placeholder selector for reusable button styles
+%button-style {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover {
+      background-color: lighten-color($primary-color, 10%);
+    }
+  }
+
+  // Button styles using placeholder selector
+button {
+    @extend %button-style;
+    background-color: $primary-color;
+    color: white;
+  }
+
+  // Interpolation example for dynamic class names
+@for $i from 1 through 3 {
+    .text-#{$i} {
+      font-size: 10px * $i;
+    }
+  }
+
+  // Nesting example with media query
+.container {
+    padding: 20px;
+    @media (max-width: 768px) {
+      padding: 10px;
+    }
+  }

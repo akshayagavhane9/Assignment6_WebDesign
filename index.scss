@@ -1,0 +1,317 @@
+$color_1: black;
+$color_2: #ff8c69;
+$color_3: white;
+$color_4: #fff;
+$color_5: #333;
+$color_6: #555;
+$color_7: fef2ec;
+$color_8: #bb9386;
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: 'Arial', sans-serif;
+$background-color_1: f7ede2;
+$background-color_2: #bb9386;
+$background-color_3: #f8f8f8;
+$background-color_4: #fff;
+$background-color_5: #f2f2f2;
+$background-color_6: white;
+$background-color_7: #f6ebe7;
+$background-color_8: #333;
+$background-color_9: #e9edc9;
+$background-color_10: #f5f5f5;
+
+/* Style for the heading within the section */
+/* Style for the paragraph within the section */
+/* Style for the table within the section */
+/* Style for table rows */
+/* Hover effect on table rows */
+/* Style for table cells */
+/* Style for the heading within the section */
+/* Style for the summary within the section */
+/* Style for the unordered list within the section */
+/* Style for list items within the unordered list */
+/* Hover effect on list items */
+/* Your existing styles for the footer */
+/* Style for the contact section within the footer 
+#contact h2{
+   
+    background-color:white;
+    padding: 0px 100px;
+}
+*/
+/* Style for the heading within the contact section */
+/* Style for the contact information */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	width: 1290px;
+	height: 90px;
+	line-height: 85px;
+	padding: 0px 100px;
+	background-color: $background-color_1;
+	.logo {
+		p {
+			font-size: 25px;
+			padding-left: 15px;
+			font-family: $font-family_1;
+			float: left;
+			color: $color_1;
+			text-transform: capitalize;
+			position: absolute;
+			cursor: pointer;
+		}
+	}
+	ul {
+		float: right;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: right;
+		li {
+			display: inline;
+			margin-right: 20px;
+		}
+	}
+	li {
+		display: inline-block;
+		list-style: none;
+		a {
+			font-size: 16px;
+			text-transform: capitalize;
+			padding: 0px 15px;
+			color: $color_1;
+			text-decoration: none;
+		}
+		a.hover {
+			color: $color_2;
+			transition: all 0.4s ease 0s;
+		}
+	}
+}
+.logoimg {
+	img {
+		position: absolute;
+		margin-left: 10px;
+		width: 145px;
+		height: 145px;
+	}
+}
+.content-items {
+	img {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+	h2 {
+		position: relative;
+		text-align: left;
+		color: $color_3;
+	}
+}
+p {
+	position: relative;
+	text-align: left;
+	color: $color_3;
+}
+.top-left {
+	position: absolute;
+	font-size: 30px;
+	top: 120px;
+	left: 30px;
+	margin: 150px;
+}
+button {
+	padding: 10px 15px;
+	background-color: $background-color_2;
+	color: $color_4;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: $background-color_2;
+	color: $color_1;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: auto;
+	&:hover {
+		background-color: $background-color_9;
+	}
+}
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+#properties {
+	background-color: $background-color_3;
+	padding: 50px;
+	text-align: center;
+	h2 {
+		color: $color_5;
+		margin-bottom: 10px;
+		font-size: 2em;
+	}
+	p {
+		color: $color_6;
+		margin-bottom: 30px;
+		font-size: 20px;
+		float: center;
+	}
+	table {
+		width: 100%;
+		background-color: $background-color_2;
+		border-collapse: collapse;
+		margin-top: 30px;
+		tr {
+			background-color: $background-color_4;
+			border-bottom: 1px solid #ddd;
+			transition: background-color 0.3s ease;
+			&:hover {
+				background-color: $background-color_5;
+			}
+		}
+		td {
+			padding: 15px;
+			text-align: left;
+			font-size: 1.1em;
+		}
+	}
+}
+#services {
+	background-color: $background-color_2;
+	padding: 50px;
+	text-align: center;
+	h2 {
+		color: $color_1;
+		margin-bottom: 10px;
+		font-size: 2em;
+	}
+	summary {
+		color: $color_1;
+		font-style: normal;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	li {
+		background-color: $background-color_6;
+		padding: 15px;
+		margin: 90px;
+		border-radius: 8px;
+		width: 200px;
+		text-align: center;
+		transition: background-color 0.3s ease;
+		&:hover {
+			background-color: $background-color_7;
+		}
+	}
+}
+#video-slider {
+	width: 100%;
+	overflow: hidden;
+}
+.video-container {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+.video {
+	width: 100%;
+	height: auto;
+}
+.audio-main {
+	width: 100%;
+	margin: 0 auto;
+	background-color: $background-color_2;
+	color: $color_1;
+	text-align: center;
+	padding: 10px;
+}
+audio {
+	width: 100%;
+	max-width: 400px;
+	margin: 20px auto;
+	display: block;
+}
+footer {
+	background-color: $background-color_8;
+	color: $color_4;
+	padding: 20px;
+	text-align: center;
+	background-color: $background-color_2;
+	color: $color_8;
+	text-align: center;
+	padding: 0px;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+#contact {
+	h2 {
+		color: $color_1;
+		margin-bottom: 10px;
+		font-size: 30px;
+		text-align: center;
+		padding: 10px;
+	}
+	p {
+		color: $color_1;
+		float: right;
+		display: inline-block;
+		margin-left: 10px;
+		padding: 20px 20px;
+	}
+	p1 {
+		color: $color_1;
+		float: left;
+		display: inline-block;
+		margin-right: 10px;
+		padding: 20px 20px;
+	}
+	p2 {
+		color: $color_1;
+		float: center;
+		display: inline-block;
+		padding: 20px 20px;
+	}
+}
+form {
+	max-width: 400px;
+	margin: 20px auto;
+}
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+body {
+	font-family: $font-family_2;
+	background-color: $background-color_10;
+	color: $color_7;
+	margin: 0;
+	padding: 0;
+}
+.search-form {
+	margin: 40px 0;
+	input[type="text"] {
+		width: 75%;
+	}
+}

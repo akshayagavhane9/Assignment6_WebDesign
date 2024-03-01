@@ -1,0 +1,14 @@
+// Grid layout for the footer
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: $grid-gap;
+    background-color: $secondary-color;
+    color: white;
+    padding: 20px 0;
+  
+    .footer-section {
+      text-align: center;
+    }
+  }
+  

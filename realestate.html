@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Prime Estate</title>
+    <link rel="icon" href="favicon.ico"
+          type="image/x-icon">
+</head>
+<body>
+<header>
+
+<div class ="logoimg"> <a href ="#"><img src = "favicon.png"> </a>
+</div>
+
+    <nav>
+        <div class="logo">
+            <p> Prime Estate</p>
+        </div>
+           <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+    </nav>
+</header>
+
+<div class="content-items">
+    <section id="home">
+    <div class="top-left"> 
+        <h2>Find Your Dream Home</h2>
+        <p>Explore a variety of homes that fit your lifestyle.</p>
+        <form class="search-form" action="/search" method="GET">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+        <img src="real_estate_image.jpeg" alt="Real Estate Image">
+    </section>
+
+</div>
+   
+
+    
+
+    <section id="properties">
+        <h2>Featured Properties</h2>
+        <p>Discover our latest and most desirable properties.</p>
+        <table>
+            <!-- Add your table content here (e.g., property details) -->
+            <!-- Table header row -->
+            <tr>
+                <td>Property Name</td>
+                <td>Location</td>
+                <td>Price</td>
+            </tr>
+
+            <!-- Sample property details -->
+            <tr>
+                <td>Modern Condo</td>
+                <td>Downtown City</td>
+                <td>$500,000</td>
+            </tr>
+
+            <tr>
+                <td>Luxury Villa</td>
+                <td>Suburban Area</td>
+                <td>$1,200,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <summary>Discover a suite of services tailored to elevate your property experience.Our Property Listings feature a diverse range of options personalized to your preferences. Gain confidence with our Home Valuation service, providing detailed and accurate property assessments for informed decision-making. Let our expert Guidance through the Buying/Selling Process ensure a smooth and stress-free experience, offering support from market trends to successful transactions. Your ideal property journey starts here.</summary>
+        <ul>
+            <li><img src = "image1.png">Property Listings</li>
+            <li><img src = "image2.png">Home Valuation</li>
+            <li><img src = "image3.png">Guidance through the Buying/Selling Process</li>
+        </ul>
+     </section>
+
+     <div id="video-slider">
+        <div class="video-container">
+            <video autoplay class="video" muted>
+                <source src="movingvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="audio-main">
+        <h2>Listen to our Audio</h2>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+    </div>
+
+
+    <section id="contact">
+     <h2>Contact Us</h2>
+    <form action="/submit_contact" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </section>
+    </form>
+
+   
+
+    
+
+    <footer>
+        
+        <section id="contact">
+          
+            <p>Email: <a href="mailto:info@primeestate.com">info@primeestate.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p2>&copy; 2024 Prime Estate. All rights reserved.</p2>
+
+        </section>
+       
+    </footer>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+// Grid layout for the header
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: $grid-gap;
+    background-color: $secondary-color;
+    color: white;
+    @include flex-center;
+  
+    .logo {
+      grid-column: 2 / 3;
+      text-align: center;
+    }
+  
+    nav {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+  }
+  

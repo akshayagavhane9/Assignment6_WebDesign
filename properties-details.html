@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Property Details | Prime Estate</title>
+</head>
+<body>
+<header>
+    <div class="logoimg">
+        <a href="#"><img src="favicon.png"></a>
+    </div>
+    <nav>
+        <div class="logo">
+            <p>Prime Estate</p>
+        </div>
+        <ul>
+            <li><a href="realestate.html">Home</a></li>
+            <li><a href="realestate.html#properties">Properties</a></li>
+            <li><a href="realestate.html#services">Services</a></li>
+            <li><a href="realestate.html#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="property-details" class="grid-layout">
+        <h2>Property Name</h2>
+        <div class="property-images flex-layout">
+            <img src="property_image1.jpg" alt="Property Image 1">
+            <img src="property_image2.jpg" alt="Property Image 2">
+            <img src="property_image3.jpg" alt="Property Image 3">
+        </div>
+        <div class="property-info grid-layout">
+            <p><strong>Location:</strong> Downtown City</p>
+            <p><strong>Price:</strong> $500,000</p>
+            <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Features:</strong> 3 bedrooms, 2 bathrooms, modern kitchen, spacious living room.</p>
+        </div>
+    </section>
+
+    <section id="contact-agent" class="flex-layout">
+        <h2>Contact Agent</h2>
+        <form action="/submit_contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <section id="contact">
+        <p>Email: <a href="mailto:info@primeestate.com">info@primeestate.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+        <p>&copy; 2024 Prime Estate. All rights reserved.</p>
+    </section>
+</footer>
+</body>
+</html>
